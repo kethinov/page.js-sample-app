@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>page.js sample app</title>
+  <meta charset='UTF-8'>
+</head>
+<body>
+  <ul>
+    <li><a href='/'>default route</a></li>
+    <li><a href='/link1'>/link1</a></li>
+    <li><a href='/link2'>/link2</a></li>
+    <li><a href='/link3'>/link3</a></li>
+  </ul>
+  
+  <p>Open the console to confirm route callback is called.</p>
+
+  <p><em>Note: this can only be run from a web server. If you have Python installed, you can start a quick one by running "<code>python -m SimpleHTTPServer</code>" and then going to <a href='http://localhost:8000/sampleApp.html'>http://localhost:8000/sampleApp.html</a>.</em></p>
+  
+  <!--
+    make sure to run:
+    bower install page.js
+  -->
+  <script src='bower_components/page.js/page.js'></script>
+  
+  <!--
+    sample app code
+  -->
+  <script src='sampleApp.js'></script>
+</body>
+</html>
